@@ -1,5 +1,5 @@
 var map;
-var coords = {lat: -12.04318, lng: -77.02824};
+var contentString = '<h2>' + city + ', ' + state + '</h2>';
 function initMap() {
     map = new google.maps.Map(document.getElementById('map'), {
         center: coords,
